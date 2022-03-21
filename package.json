@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx babel --plugins @babel/plugin-transform-react-jsx src/index.js -d build",
+    "build": "npx babel --plugins @babel/plugin-transform-react-jsx src/* -d build",
     "watch": "npm-watch"
   },
   "watch": {
